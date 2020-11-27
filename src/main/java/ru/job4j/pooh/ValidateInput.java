@@ -3,13 +3,10 @@ package ru.job4j.pooh;
 import java.util.List;
 
 public class ValidateInput {
-    public boolean isValid(List<String> input) {
-        if (input.get(0).split(" ").length != 2) {
-            return false;
+    public boolean isValid(String[] input) {
+        if (input[0].equals("GET")) {
+            return input.length == 2 && input[1].split("/").length == 3;
         }
-        if (input.get(0).contains("GET")) {
-            return input.size() == 1;
-        }
-        return input.size() == 2;
+        return input.length == 3;
     }
 }

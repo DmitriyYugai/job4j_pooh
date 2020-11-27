@@ -1,0 +1,7 @@
+Для тестирования приложения при работе в режиме queue использовались след. запросы:
+POST /queue {"queue":weather,"text":temp}
+GET /queue/weather
+
+Для тестирования приложения при работе в режиме topic использовались след. запросы:
+POST /topic {"topic":weather,"text":temp}
+GET /topic/weather
