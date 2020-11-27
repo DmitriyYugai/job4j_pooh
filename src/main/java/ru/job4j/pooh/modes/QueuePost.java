@@ -1,7 +1,9 @@
-package ru.job4j.pooh;
+package ru.job4j.pooh.modes;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import ru.job4j.pooh.pojo.MessagePojo;
+import ru.job4j.pooh.pojo.MessageQueuePojo;
 
 import java.io.PrintWriter;
 import java.util.List;

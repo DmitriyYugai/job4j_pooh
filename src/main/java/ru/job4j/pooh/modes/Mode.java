@@ -1,4 +1,6 @@
-package ru.job4j.pooh;
+package ru.job4j.pooh.modes;
+
+import ru.job4j.pooh.pojo.MessagePojo;
 
 import java.io.PrintWriter;
 import java.util.List;

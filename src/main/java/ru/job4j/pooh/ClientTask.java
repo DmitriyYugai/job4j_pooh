@@ -1,5 +1,8 @@
 package ru.job4j.pooh;
 
+import ru.job4j.pooh.modes.*;
+import ru.job4j.pooh.pojo.MessagePojo;
+
 import java.io.*;
 import java.net.Socket;
 import java.util.List;

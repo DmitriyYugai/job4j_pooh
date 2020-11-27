@@ -1,10 +1,10 @@
-package ru.job4j.pooh.clients.queue;
+package ru.job4j.pooh.clients;
 
 import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ClientPost {
+public class ClientGet {
     public static void main(String[] args) {
         try (Socket socket = new Socket("localhost", 9000);
              BufferedReader in = new BufferedReader(

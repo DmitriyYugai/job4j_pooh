@@ -1,4 +1,4 @@
-package ru.job4j.pooh;
+package ru.job4j.pooh.pojo;
 
 public class MessagePojo {
     private String text;
